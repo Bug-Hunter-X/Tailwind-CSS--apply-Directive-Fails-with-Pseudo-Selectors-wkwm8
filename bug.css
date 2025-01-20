@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind's `@apply` directive with a class that contains a pseudo-selector like `&:hover`.  The `@apply` directive doesn't correctly handle the pseudo-selector, causing the styles to not be applied on hover.
